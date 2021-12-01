@@ -6,14 +6,26 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+        "laravelcollective/html": "5.2",
+        "predis/predis": "^1.1",
+        "prettus/l5-repository": "^2.6",
+        "dimsav/laravel-translatable": "6.1",
+        "spatie/laravel-medialibrary": "3.18",
+        "eusonlito/laravel-meta": "v3.0.0",
+        "roumen/sitemap": "^2.6",
+        "rtconner/laravel-tagging": "~2.0",
+        "roumen/feed": "^2.10",
+        "doctrine/dbal": "2.3.5",
+        "dmknvk/laravel-image-optimizer": "^0.1.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
-        "symfony/dom-crawler": "2.8.*|3.0.*"
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "barryvdh/laravel-ide-helper": "v2.3.2"
     },
     "autoload": {
         "classmap": [
